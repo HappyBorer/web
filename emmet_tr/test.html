@@ -1,0 +1,167 @@
+ul>li*3
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+ul>li.item$*2
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+</ul>
+
+ul>li.item$$$*3
+<ul>
+    <li class="item001"></li>
+    <li class="item002"></li>
+    <li class="item003"></li>
+</ul>
+
+ul>li.item$@-*3
+<ul>
+    <li class="item3"></li>
+    <li class="item2"></li>
+    <li class="item1"></li>
+</ul>
+
+ul>li.item$@3*5
+<ul>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+    <li class="item6"></li>
+    <li class="item7"></li>
+</ul>
+
+div>(header>ul>li*2>a)+footer>p
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+
+div>div>h+p^bq
+<div>
+    <div>
+        <h></h>
+        <p></p>
+    </div>
+    <blockquote></blockquote>
+</div>
+
+div>div>h+p^^bq
+<div>
+    <div>
+        <h></h>
+        <p></p>
+    </div>
+</div>
+<blockquote></blockquote>
+
+
+div>(dl>dt+dd+dt+dd+dt+dd)^footer>p
+<div>
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</div>
+<footer>
+    <p></p>
+</footer>
+
+(div>dl>dt+dd+dt+dd+dt+dd)+footer>p
+<div>
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</div>
+<footer>
+    <p></p>
+</footer>
+
+#header
+<div id="header"></div>
+
+.title
+<div class="title"></div>
+
+form#search.wide
+<form action="" id="search" class="wide"></form>
+
+p.class1.class2.class3
+<p class="class1 class2 class3"></p>
+
+p[title="Hello word"]
+<p title="Hello word"></p>
+
+
+td[rowspan="2" colspan="3" title]
+<td rowspan="2" colspan="3" title=""></td>
+
+[a="value" b="value2"]
+<div a="value" b="value2"></div>
+
+a{click me}
+<a href="">click me</a>
+
+p>{Click}+a{here}+{to continue}
+<p>Click<a href="">here</a>to continue</p>
+
+.class
+<div class="class"></div>
+
+em>.class
+<em><span class="class"></span></em>
+
+ul>.class
+<ul>
+    <li class="class"></li>
+</ul>
+
+tabale>.row>.col
+<tabale>
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</tabale>
+
+.container>.row>.col-sm-12
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"></div>
+    </div>
+</div>
+
+p>.accent-color{Text }+{accent}
+<p><span class="accent-color">Text </span>accent</p>
+
+<ul>
+    <li>
+        <a href="tel:+">Главная</a>
+    </li>
+    <li>
+        <a href="tel:+">Сервисы</a>
+    </li>
+    <li>
+        <a href="tel:+">Контакты</a>
+    </li>
+</ul>
+
+field

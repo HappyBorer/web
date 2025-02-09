@@ -1,0 +1,14 @@
+div{
+    /* pos:a */
+    position: absolute;
+    /* z5 */
+    z-index: 5;
+    /* p5 */
+    padding: 5px;
+    /* p5:! */
+    padding: 5px !important;
+    /* dib */
+    display: inline-block;
+    /* bxz */
+    box-sizing: border-box;
+}
