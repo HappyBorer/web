@@ -11,4 +11,35 @@ div{
     display: inline-block;
     /* bxz */
     box-sizing: border-box;
+    /* va */
+    vertical-align: top;
+    /* ta:c */
+    text-align: center;
+    /* td:u */
+    text-decoration: underline;
+    /* tt */
+    text-transform: uppercase;
+    /* bg */
+    background: #000;
+    /* bgn */
+    background: none;
+    /* bgc */
+    background-color: #fff;
+    /* bgi */
+    background-image: url();
+    /* bgrn */
+    background-repeat: no-repeat;
+    /* bgp */
+    background-position: 0 0;
+    /* bgs */
+    background-size: 0;
+    /* c#0 */
+    color: #000;
+    /* cr */
+    color: rgb(0, 0, 0);
+    /* cra */
+    color: rgba(0, 0, 0, .5);
+    /* op */
+    opacity: 0;
 }
+

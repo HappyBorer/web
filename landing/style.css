@@ -1,69 +1,86 @@
-
-html{
+html {
     box-sizing: border-box;
 }
-*, *::before, *::after{
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
+:root{
+    --accent-color: #007765;
+    --gray-colo: #EEEEEE;
+    --white-color: #fff;
+}
 
-body{
+body {
     margin: 0;
-    font-family: "" sans-serif;
+    font-family: "Roboto" sans-serif;
     font-weight: 400;
 }
 
-.content{
+.content {
     width: 1219px;
-    padding-left:55px;
-    padding-right:55px;
+    padding-left: 55px;
+    padding-right: 55px;
     margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
 }
 
-#header{
+#header {
     background-color: #007765;
     color: #fff;
     height: 84px;
     /* position:fixed; */
 }
 
-#logo{
+#logo {
     width: 184px;
     height: 45px;
     float: left;
-}
+}  
 
-ul{
+ul {
     list-style-type: none;
     display: inline;
     float: right;
 }
-li{
+
+li {
     display: inline;
-    
-}
-li a{
-    text-decoration: none;
-    color: white;
+
 }
 
-#title{
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+#title {
     background-image: url("image\\image-15.png");
     background-size: contain;
     height: 403px;
-    color:#fff
+    color: #fff
 }
-#problem{
-    background-color:#fff;
+
+#problem {
+    background-color: #fff;
 }
-#hero{
+
+#hero {
     background-image: url("image\\image-14.png");
 }
-#coin{
-    background-color:#fff;
+
+#coin {
+    background-color: #fff;
 }
-#team{
-    background-color:#EEEEEE;
+
+#team {
+    background-color: #EEEEEE;
 }
-#footer{
+
+#footer {
     background-color: #333;
 }
