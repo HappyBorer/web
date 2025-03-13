@@ -1,0 +1,116 @@
+@media screen and (max-width: 992px){
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-4{
+        width: calc(33.33% - var(--gutter));
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-6{
+        width: calc(50% - var(--gutter));
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+    .col-sm-12{
+        width: calc(100% - var(--gutter));
+    }
+}

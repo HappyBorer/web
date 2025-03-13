@@ -1,0 +1,39 @@
+
+h1{
+    color: aqua;
+    background-image: url(../img/TheHonerBoy.jpg);
+}
+div{
+    color: blue;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: justify;
+    
+}
+p{
+    color: teal;
+    
+}
+.element{
+    color: violet;
+    background: black;
+    text-align: right;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+#text{
+    color: red;
+    border: 5px blue solid;
+    border-radius: 20px;
+    font-family: Arial;
+    font-weight: 900;
+}
+
+h4{
+    color: green;
+    background-image: url(../img/krasivye-zhiznennye-kartinki-3.png);
+    background-repeat: no-repeat;
+
+}

@@ -24,17 +24,13 @@ body {
     padding-left: 55px;
     padding-right: 55px;
     margin: 0 auto;
-    border: 1px solid #000;
-}
-#header .content{
-    border: 1px solid red;
-    display: block;
-    
+    text-align: center;
+    vertical-align: middle;
 }
 
 #header {
-    background-color: var(--accent-color);
-    color: var(--white-color);
+    background-color: #007765;
+    color: #fff;
     height: 84px;
     /* position:fixed; */
 }
@@ -42,38 +38,35 @@ body {
 #logo {
     width: 184px;
     height: 45px;
-    display: inline;
     float: left;
 }  
 
 ul {
     list-style-type: none;
+    display: inline;
     float: right;
 }
 
 li {
     display: inline;
-   
+
 }
 
 li a {
     text-decoration: none;
-    color: var(--white-color);
-    font-family: "Roboto" sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-
+    color: white;
+    font-size: 1.5em;
 }
 
 #title {
     background-image: url("image\\image-15.png");
     background-size: contain;
     height: 403px;
-    color: var(--white-color);
+    color: #fff
 }
 
 #problem {
-    background-color: var(--white-color);
+    background-color: #fff;
 }
 
 #hero {
@@ -81,11 +74,11 @@ li a {
 }
 
 #coin {
-    background-color: var(--white-color);
+    background-color: #fff;
 }
 
 #team {
-    background-color: var(--gray-color);
+    background-color: #EEEEEE;
 }
 
 #footer {
