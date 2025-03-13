@@ -9,7 +9,7 @@ html {
 }
 :root{
     --accent-color: #007765;
-    --gray-colo: #EEEEEE;
+    --gray-color: #EEEEEE;
     --white-color: #fff;
 }
 
@@ -24,13 +24,17 @@ body {
     padding-left: 55px;
     padding-right: 55px;
     margin: 0 auto;
-    text-align: center;
-    vertical-align: middle;
+    border: 1px solid #000;
+}
+#header .content{
+    border: 1px solid red;
+    display: block;
+    
 }
 
 #header {
-    background-color: #007765;
-    color: #fff;
+    background-color: var(--accent-color);
+    color: var(--white-color);
     height: 84px;
     /* position:fixed; */
 }
@@ -38,35 +42,38 @@ body {
 #logo {
     width: 184px;
     height: 45px;
+    display: inline;
     float: left;
 }  
 
 ul {
     list-style-type: none;
-    display: inline;
     float: right;
 }
 
 li {
     display: inline;
-
+   
 }
 
 li a {
     text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+    color: var(--white-color);
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
 #title {
     background-image: url("image\\image-15.png");
     background-size: contain;
     height: 403px;
-    color: #fff
+    color: var(--white-color);
 }
 
 #problem {
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 #hero {
@@ -74,11 +81,11 @@ li a {
 }
 
 #coin {
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 #team {
-    background-color: #EEEEEE;
+    background-color: var(--gray-color);
 }
 
 #footer {
