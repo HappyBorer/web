@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+div.image img{
+   
+    height: 150px;
+    width: 150px;
+}
+.text{
+    font-family: sans-serif;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+.icons > div{
+    height: 30px;
+    width: 30px;
+    color: rgb(68, 138, 91);
+    border: 2px solid rgb(68, 138, 91);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.icons > div:hover{
+    background-color: rgb(68, 138, 91);
+    border: none;
+    color: white;
+}
+

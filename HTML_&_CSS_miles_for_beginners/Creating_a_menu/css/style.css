@@ -21,10 +21,26 @@ header{
 }
 
 ul{
-    display: flex;
-    justify-content: center;
     list-style: none;
+}
+
+ul.main{
+    display: flex;
+    justify-content: space-around; 
     text-transform: uppercase;
-    font-size: 25px;
     color: white;
+    align-items: center;
+}
+li{
+    text-align: center;
+
+}
+li.up{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(126, 71, 26);
+    margin-bottom: 10px;
+}
+li.down{
+    font-size: 12px;
 }

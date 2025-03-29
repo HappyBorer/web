@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+header{
+    
+    background: rgb(9,171,177);
+    background: linear-gradient(90deg, rgba(9,171,177,1) 0%, rgba(38,240,231,0.927608543417367) 100%);
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main {
+    height: 300px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+ul.text{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+i.fa{
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+
