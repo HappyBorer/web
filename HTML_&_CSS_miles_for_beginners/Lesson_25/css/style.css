@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'Quite Chocolatey';
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat regular';
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('..\\img\\Layer 1.png');
+    height: 700px;
+}
+.container{
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.uper{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+.item_menu{
+    height: 36px;
+    margin-top: 60px;
+    font-family: 'Montserrat regular' sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    
+}
+.logo{
+    margin-top: 36px;
+    font-family: 'Quite Chocolatey';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.text_1, span{
+    font-family: 'Montserrat regular' sans-serif;
+    font-size: 66px;
+    text-transform: uppercase;
+    line-height: 54px;
+
+}
+
+.text{
+    width: 485px;
+}
+
+.text_2{
+    text-align: justify;
+}
