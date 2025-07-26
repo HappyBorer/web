@@ -26,7 +26,9 @@ html{
 }
 
 .uper{
+    border: green solid 2px;
     display: flex;
+    
     justify-content: space-between;
 }
 .menu{
@@ -36,17 +38,20 @@ html{
 }
 .item_menu{
     height: 36px;
-    margin-top: 60px;
+    /*margin-top: 60px; */
+    border: 2px solid yellow;
     font-family: 'Montserrat regular' sans-serif;
     font-size: 15px;
     text-transform: uppercase;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
+    
     padding: auto;
+
     
 }
 .logo{
-    margin-top: 36px;
+    /* margin-top: 36px; */
     font-family: 'Quite Chocolatey';
     color: #fff;
     font-size: 50px;
