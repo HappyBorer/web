@@ -5,8 +5,13 @@
 
 @font-face {
     font-family: 'Montserrat regular';
-    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
 html{
     box-sizing: border-box;
 }
@@ -26,50 +31,59 @@ html{
 }
 
 .uper{
-    border: green solid 2px;
     display: flex;
-    
     justify-content: space-between;
+    margin-bottom: 136px;
 }
 .menu{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
     width: 520px;
 }
 .item_menu{
     height: 36px;
-    /*margin-top: 60px; */
-    border: 2px solid yellow;
-    font-family: 'Montserrat regular' sans-serif;
+    width: 86px;
+    font-family: 'Montserrat regular';
     font-size: 15px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #fff;
-    /* text-align: center; */
-    
-    padding: auto;
-
-    
+    text-align: center;
+    align-content: center;
+}
+.item_menu:hover{
+    background-color: #130e27;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .logo{
-    /* margin-top: 36px; */
+    margin-top: 35px;
     font-family: 'Quite Chocolatey';
     color: #fff;
-    font-size: 50px;
+    font-size: 99px;
     font-weight: 400;
 }
 
-.text_1, span{
-    font-family: 'Montserrat regular' sans-serif;
+.text_1{
+    font-family: 'Montserrat Bold';
+    font-weight: bolder;
     font-size: 66px;
     text-transform: uppercase;
-    line-height: 54px;
-
+    line-height: 60px;
+    margin-bottom: 50px;
 }
-
+ .text_1 span{
+    color: #130e27
+ }
 .text{
-    width: 485px;
+    width: 390px;
+    color: #fff;
 }
 
 .text_2{
-    text-align: justify;
+    font-family: "PTSerif";
+    font-size: 17px;
+    line-height: 1.4;
 }
+
