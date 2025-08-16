@@ -21,7 +21,7 @@ html{
     margin: 0;
     padding: 0;
 }
-.header{
+#header{
     background-image: url('..\\img\\Layer 1.png');
     height: 700px;
 }
@@ -85,5 +85,170 @@ html{
     font-family: "PTSerif";
     font-size: 17px;
     line-height: 1.4;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_services{
+    width: 170px;
+    text-align: center;
+    font-family: "PTSerif";
+    font-size: 20px;
+}
+
+.item_services img{
+    height: 145px;
+    margin-bottom: 45px;
+}
+
+.item_services div{
+    margin-bottom: 70px;
+}
+
+.name_text{
+    font-family: "Couture", sans-serif;
+    font-size: 50px;
+    color: #aa281c;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 47px 20px 98px;
+}
+
+.name_text span{
+    color: #130e27;
+}
+
+#main_1{
+    background-color: #130e27;
+    height: 120px;
+}
+
+.section_call{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.item_call{
+    width: 599px;
+    font-family: "PTSerif";
+    font-size: 20px;
+    align-items: center;
+}
+
+.item_call_button{
+    background-color: #aa281c;
+    font-family: "Montserrat regular";
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    height: 64px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+.item_call_button:hover{
+    cursor: pointer;
+}
+
+#main_2{
+    background-color: #efefef;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing_card{
+    width: 320px;
+    height: 390px;
+    background-color: #fff;
+    margin-bottom: 64px;
+    border-radius: 5px;
+}
+
+.pricing ul{
+  text-align: center;
+  list-style-type: none;
+  font-family: "PTSerif";
+  font-size: 20px;
+}
+
+.button_1, .button_2{
+    width: 250px;
+    height: 50px;
+    margin:35px auto 15px;
+    text-align: center;
+    align-content: center;
+    color:#fff;
+    font-family: "Montserrat regular";
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.button_1{
+    background-color:#130e27;
+}
+.button_2{
+    background-color: #aa281c;
+}
+
+#main_2 h2{
+    text-align: center;
+    color:#130e27;
+    font-family: "Montserrat Bold";
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 65px;
+    margin-bottom: 58px;
+}
+
+.red_bold{
+    color: #aa281c;
+    font-family: "Montserrat Bold";
+    font-size: 46px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+ul:first-child{
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+#footer{
+    background-color: #130e27;
+    color: #fff;
+    
+}
+
+.inner{
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights{
+    font-family: "PTSerif";
+    font-size: 20px;
+    text-align: center;
+}
+.rights span{
+    color: #aa281c;
+}
+div.logo{
+    font-size: 60px;
+    color: #aa281c;
+    text-align: center;
 }
 
