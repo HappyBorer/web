@@ -1,0 +1,110 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+:root{
+    --accent-color: #F7654A;
+    --dark-color: #404149;
+    --gray-color: #999999;
+    --white-color: #FFFFFF;
+}
+.text_h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+.text_h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.text_h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+
+}
+.text_p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.text_p_reviews{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+.heder {
+    min-height: 740px;
+    background-image: url(../imges/first-screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.titel_header {
+    padding-top: 20px;
+     margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.burger_menu {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--accent-color);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+     align-items: center;
+}
+.line {
+    display: block;
+    width: 21px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.line:last-child{
+    margin-bottom: 0;
+}
+.main_tittel_text {
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: var(--white-color);
+}
+.under_main_text {
+    font-weight: 400;
+    max-width: 734px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: var(--white-color);
+}
