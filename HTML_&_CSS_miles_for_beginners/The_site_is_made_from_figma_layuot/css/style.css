@@ -46,6 +46,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 21px;
+  letter-spacing: 0.02em;
 }
 .text_p {
   font-family: "Open Sans", sans-serif;
@@ -110,6 +111,12 @@ body {
   max-width: 734px;
   margin: 0 auto 17px;
   color: var(--white-color);
+}
+@media screen and (max-width: 380px){
+  .main_tittel_text{
+    font-size: 46px;
+    line-height: 64;
+  }
 }
 .under_main_text {
   font-weight: 400;
@@ -179,6 +186,7 @@ body {
 @media screen and (max-width: 768px) {
   .info {
     position: relative;
+    padding: 30px 0;
   }
   .about_grid {
     grid-template-columns: repeat(1, 1fr);
@@ -294,5 +302,54 @@ body {
 @media screen and (max-width: 768px) {
   .request_flex{
     flex-wrap: wrap;
+  }
+}
+.services {
+  padding: 150px 0;
+}
+.section_h2, .services_h4 {
+  color: #000000;
+  text-align: center;
+}
+.section_h2{
+  margin-bottom: 55px;
+}
+.services_h4{
+  margin: 0 auto;
+  min-width: 172px;
+  text-transform: uppercase;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.services_grid-item {
+  padding: 59px 0;
+  background-color: #f7f7f7;
+  width: 350px;
+  
+}
+.services_icon {
+  margin: 0 auto 21px;
+}
+@media screen and (max-width: 1280px) {
+  .services{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .services_grid-item{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services-grid{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
